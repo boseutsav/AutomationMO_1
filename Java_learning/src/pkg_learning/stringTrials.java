@@ -19,7 +19,7 @@ public class stringTrials {
 	      }
 	   }
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void countName() throws IOException {
 		FileReader newFile = new FileReader(System.getProperty("user.dir")+"\\readTestFile.txt");
 		BufferedReader br = new BufferedReader(newFile);

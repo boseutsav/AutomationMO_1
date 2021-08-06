@@ -39,6 +39,10 @@ public class class_41 {
 		obj2.add(2);
 		obj2.add(3);
 
+		System.out.println("integer removal from arraylist");
+		System.out.println("originallist: "+obj2);
+		obj2.remove("1");
+		System.out.println("After removal: "+obj2);
 		// 2nd method
 		ArrayList<String> obj = new ArrayList<String>(Arrays.asList("Alok", "Mary", "Bharat"));
 		System.out.println(obj);
@@ -47,6 +51,7 @@ public class class_41 {
 
 		// 3rd Method
 		ArrayList<String> obj4 = new ArrayList<String>(8);
+		System.out.println(obj4.size());
 		obj4.add(0, "Test");
 		obj4.add(1, "Test1");
 		obj4.add(2, "Test6");
@@ -71,7 +76,9 @@ public class class_41 {
 		};
 		System.out.println(array123);
 		// remove elements like this
+		System.out.println("Removing objects from arraylist");
 		obj4.remove(1);
+		System.out.println(obj4);
 		obj4.remove("Test3");
 		System.out.println(obj4);
 		System.out.println(obj4.size());
@@ -150,6 +157,8 @@ public class class_41 {
 
 		/* unsorted List */
 		System.out.println(listofcountries);
+		Collections.reverse(listofcountries);
+		System.out.println("simply reversed:"+listofcountries);
 
 		System.out.println("-------------------++++++_----________-000========");
 		/* Sort List/ */
@@ -198,6 +207,14 @@ public class class_41 {
 		obj6.addAll(obj3);
 		System.out.println(obj6);
 		listofcountries.addAll(obj5);
+		System.out.println("Before Shuffle: "+ listofcountries);
+		for (int counter =0;counter<6;counter++) {
+			Collections.shuffle(listofcountries);
+			System.out.println(listofcountries);
+			System.out.println("Iteration "+(counter+1));
+			System.out.println("=============================Shuffle===============================");
+			
+		} 
 		System.out.println(listofcountries);
 		// two ArrayList of String type and we are adding the element of second
 		// arraylist
