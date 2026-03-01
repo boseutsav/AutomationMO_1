@@ -12,6 +12,12 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class annotation_test {
+	
+	public annotation_test() {
+		System.out.println("This is constructor");
+	}//To test whether constructor is auto executed in TestNG Test Class
+	
+	
 	@Test(priority=2)
 	public void test1() {
 		System.out.println("Test1");

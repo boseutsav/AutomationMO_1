@@ -25,6 +25,7 @@ public class strToArrList {
 		System.out.println("List before: "+myList);
 		Collections.shuffle(myList);
 		System.out.println("List after: "+myList);
+		System.out.println(new String(myList.toString()));
 		
 				
 		

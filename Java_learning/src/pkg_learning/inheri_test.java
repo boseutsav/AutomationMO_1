@@ -19,6 +19,9 @@ abstract class Animal implements Mammal {
     public void sleep() {
         System.out.println("Sleeping...");
     }
+    public static void myfunc() {
+    	System.out.println("this is animal myfunc");
+    }
  
 }
 class Dog extends Animal {
@@ -27,6 +30,9 @@ class Dog extends Animal {
     }
     public void eat() {
         System.out.println("Dog is eating...");
+    }
+    public static void myfunc() {
+    	System.out.println("this is Dog myfunc");
     }
 }
  
@@ -48,6 +54,7 @@ public class inheri_test {
 		Dog dog = new Dog();
 		Animal anim = (Animal) dog;
 		anim.eat();
+		dog.myfunc();
 		
 		Cat cat = new Cat();
 		AnimalTrainer trainer = new AnimalTrainer();

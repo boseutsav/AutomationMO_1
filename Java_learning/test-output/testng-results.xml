@@ -1,21 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="78" started-at="2021-06-19T22:00:55 IST" finished-at="2021-06-19T22:00:55 IST">
+  <suite name="Default suite" duration-ms="70" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="78" started-at="2021-06-19T22:00:55 IST" finished-at="2021-06-19T22:00:55 IST">
-      <class name="pkg_learning.stringTrials">
-        <test-method status="PASS" signature="countName()[pri:0, instance:pkg_learning.stringTrials@3b0143d3]" name="countName" duration-ms="16" started-at="2021-06-19T22:00:55 IST" finished-at="2021-06-19T22:00:55 IST">
+    <test name="Default test" duration-ms="70" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+      <class name="pkg_learning.annotation_test">
+        <test-method status="PASS" signature="b4Suite()[pri:0, instance:pkg_learning.annotation_test@50b494a6]" name="b4Suite" is-config="true" duration-ms="18" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- countName -->
-        <test-method status="PASS" signature="testCode()[pri:0, instance:pkg_learning.stringTrials@3b0143d3]" name="testCode" duration-ms="0" started-at="2021-06-19T22:00:55 IST" finished-at="2021-06-19T22:00:55 IST">
+        </test-method> <!-- b4Suite -->
+        <test-method status="PASS" signature="b4Test()[pri:0, instance:pkg_learning.annotation_test@50b494a6]" name="b4Test" is-config="true" duration-ms="1" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCode -->
-      </class> <!-- pkg_learning.stringTrials -->
+        </test-method> <!-- b4Test -->
+        <test-method status="PASS" signature="b4Class()[pri:0, instance:pkg_learning.annotation_test@50b494a6]" name="b4Class" is-config="true" duration-ms="1" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4Class -->
+        <test-method status="PASS" signature="b4method()[pri:0, instance:pkg_learning.annotation_test@50b494a6]" name="b4method" is-config="true" duration-ms="0" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4method -->
+        <test-method status="PASS" signature="test3()[pri:1, instance:pkg_learning.annotation_test@50b494a6]" name="test3" duration-ms="10" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="a4method()[pri:0, instance:pkg_learning.annotation_test@50b494a6]" name="a4method" is-config="true" duration-ms="0" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a4method -->
+        <test-method status="PASS" signature="b4method()[pri:0, instance:pkg_learning.annotation_test@50b494a6]" name="b4method" is-config="true" duration-ms="2" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4method -->
+        <test-method status="PASS" signature="test1()[pri:2, instance:pkg_learning.annotation_test@50b494a6]" name="test1" duration-ms="3" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="a4method()[pri:0, instance:pkg_learning.annotation_test@50b494a6]" name="a4method" is-config="true" duration-ms="3" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a4method -->
+        <test-method status="PASS" signature="b4method()[pri:0, instance:pkg_learning.annotation_test@50b494a6]" name="b4method" is-config="true" duration-ms="0" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4method -->
+        <test-method status="PASS" signature="test2()[pri:3, instance:pkg_learning.annotation_test@50b494a6]" name="test2" duration-ms="2" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="a4method()[pri:0, instance:pkg_learning.annotation_test@50b494a6]" name="a4method" is-config="true" duration-ms="1" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a4method -->
+        <test-method status="PASS" signature="a4Test()[pri:0, instance:pkg_learning.annotation_test@50b494a6]" name="a4Test" is-config="true" duration-ms="1" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a4Test -->
+        <test-method status="PASS" signature="a4Class()[pri:0, instance:pkg_learning.annotation_test@50b494a6]" name="a4Class" is-config="true" duration-ms="0" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a4Class -->
+        <test-method status="PASS" signature="a4Suite()[pri:0, instance:pkg_learning.annotation_test@50b494a6]" name="a4Suite" is-config="true" duration-ms="1" started-at="2021-12-04T17:23:28 IST" finished-at="2021-12-04T17:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a4Suite -->
+      </class> <!-- pkg_learning.annotation_test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -4,7 +4,7 @@ public class Class_42 {
 
 	int var = 5;
 	void method(int tvar) {
-		var = 10;//this refers to instance var if no parameter with same var name exists, if parameter has same name then it is param variable
+		int var = 10;//this refers to instance var if no parameter with same var name exists, if parameter has same name then it is param variable
 		System.out.println("Value of var:"+var);
 		System.out.println("Value of Instance var:"+this.var);
 	}

@@ -26,9 +26,27 @@ package pkg_learning;
  * System.out.println("Sum is :" + a.add(5, 10)); Sum.main(null); Sum.main(1); }
  * }
  */
-class chimp2{
+public class compileClassTest{
+	final int a=87;
+	double df;
+	compileClassTest() {
+		//System.out.println("inside cons");
+	}
+	
+	public int methName() {
+		//double a= 99.3;
+		
+		return a;
+	}
+	public int meth() {
+		//a=new String("gambat");
+		return a;
+	}
+	
 	public static void main (String args[]) {
-        System.out.println(" using chimp class");
+       compileClassTest obj = new compileClassTest();
+       System.out.println(obj.methName());
+        
         
     }
 	

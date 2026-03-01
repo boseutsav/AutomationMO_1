@@ -35,13 +35,14 @@ public class class_41 {
 		System.out.println(obj1.size());
 
 		ArrayList<Integer> obj2 = new ArrayList<Integer>();
-		obj2.add(1);
+		obj2.add(12);
 		obj2.add(2);
-		obj2.add(3);
+		obj2.add(32);
 
 		System.out.println("integer removal from arraylist");
 		System.out.println("originallist: "+obj2);
-		obj2.remove("1");
+		obj2.remove(Integer.parseInt("2"));
+		obj2.remove(obj2);
 		System.out.println("After removal: "+obj2);
 		// 2nd method
 		ArrayList<String> obj = new ArrayList<String>(Arrays.asList("Alok", "Mary", "Bharat"));
