@@ -14,6 +14,6 @@ public class TestBank {
 		System.out.println(obj2==obj1);
 		System.out.println(obj2.equals(obj1));
 		System.out.println(obj2==obj1);
-
+//ne 
 	}
 }
