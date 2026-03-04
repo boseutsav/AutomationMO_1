@@ -1,5 +1,7 @@
 testing for text file contents
 
+Changes made in new file while on branch newBranch
+
 added newline while on master
 
 added 2nd line while on master
