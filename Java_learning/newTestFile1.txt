@@ -2,3 +2,4 @@ testing for text file contents
 
 added newline while of master- 2nd commit
 Line 1 rem master
+Line 2 rem master
