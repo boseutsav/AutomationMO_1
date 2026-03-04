@@ -1,1 +1,2 @@
 this is to test remote merge from main into branch
+this is second line added to remote repo directly in master.
