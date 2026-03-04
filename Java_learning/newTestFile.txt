@@ -1,3 +1,5 @@
 testing for text file contents
 
 added newline while on master
+
+added 2nd line while on master
