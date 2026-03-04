@@ -2,6 +2,8 @@ testing for text file contents
 
 Changes made in new file while on branch newBranch
 
+2nd line newBranch 2nd commit
+
 added newline while on master
 
 added 2nd line while on master
