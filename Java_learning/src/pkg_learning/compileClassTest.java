@@ -29,23 +29,24 @@ package pkg_learning;
 public class compileClassTest{
 	final int a=87;
 	double df;
+	static int cout=22;
 	compileClassTest() {
 		//System.out.println("inside cons");
 	}
 	
-	public int methName() {
-		//double a= 99.3;
+	public static double methName() {
+		double a= 99.3;
 		
 		return a;
 	}
-	public int meth() {
-		//a=new String("gambat");
+	public String meth() {
+		String a=new String("gambat");
 		return a;
 	}
 	
 	public static void main (String args[]) {
        compileClassTest obj = new compileClassTest();
-       System.out.println(obj.methName());
+       System.out.println(compileClassTest.methName());
         
         
     }
