@@ -6,6 +6,5 @@ online 5 these are only the new lines
 
 added line 3 master
 1st line rem master
-2nd line rem master
-3rd line rem master
+consolidated 2nd 3rd line
 4th line rem master
