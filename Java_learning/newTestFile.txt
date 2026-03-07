@@ -4,6 +4,5 @@ changes on remote for clash
 this is completenew line added and whitespaces shrunken
 added line 3 master
 1st line rem master
-2nd line rem master
-3rd line rem master
+roll new line out again
 4th line rem master
