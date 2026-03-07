@@ -4,7 +4,7 @@ Changes made in new file while on branch newBranch
 
 2nd line newBranch 2nd commit
 
-3rd line newbranch 3rd commit
+just another change
 
 added newline while on master
 
