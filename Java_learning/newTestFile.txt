@@ -1,7 +1,8 @@
 testing for text file contents
 
 changes on remote for clash
-this is completenew line added and whitespaces shrunken
+
+online 5 these are only the new lines
 added line 3 master
 1st line rem master
 2nd line rem master
