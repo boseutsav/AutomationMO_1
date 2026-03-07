@@ -1,6 +1,6 @@
 testing for text file contents
 
-Changes made in new file while on branch newBranch
+changes on remote for clash
 
 2nd line newBranch 2nd commit
 
