@@ -3,6 +3,7 @@ testing for text file contents
 changes on remote for clash
 
 online 5 these are only the new lines
+
 added line 3 master
 1st line rem master
 consolidated 2nd 3rd line
